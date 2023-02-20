@@ -27,3 +27,12 @@ MIT license.
 
 Dependencies
 ------------
+    matplotlib
+    numpy
+    pathlib
+    pandas
+    pillow
+    joblib
+    scikit-learn
+    opencv-python
+    
