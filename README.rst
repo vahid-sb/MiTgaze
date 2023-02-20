@@ -27,6 +27,9 @@ MIT license.
 
 Dependencies
 ------------
+
+.. code-block:: python
+    
     matplotlib
     numpy
     pathlib
