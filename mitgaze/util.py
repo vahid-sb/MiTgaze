@@ -909,6 +909,7 @@ def df_saliency_summary(df_in):
 
 # %% a summary list of fixatin points and the amount of time particpant has epnt at each
 def func_par_fixation_data(df_par_media):
+    import numpy as np
     from mitgaze.util import list_count
     H_screen = int(list(df_par_media['Recording resolution height'])[0])
     media_name = list(df_par_media['Presented Media name'].unique())[0]

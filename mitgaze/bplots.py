@@ -440,8 +440,8 @@ def plot_gaze(x, y, img, order=True, ax=None,
 
     ### gaze order
     if order:
-        my_color = cm.RdYlBu(np.linspace(0, 1, x.shape[0]))
-        title_info_str = title_str + '\n Colour order in gaze plot: Red -> Yellow -> Blue'
+        my_color = cm.viridis(np.linspace(0, 1, x.shape[0]))
+        title_info_str = title_str + '\n Colour order in gaze plot: Yellow -> Green'
         N = np.shape(x)[0]
         my_alpha = np.linspace(.7,.3, x.shape[0])
         my_color[:,3] = my_alpha
